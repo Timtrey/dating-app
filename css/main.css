@@ -1,0 +1,35 @@
+body{
+    color: white;
+    margin: 0px;
+    font-family: arial, corbel, sans-serif;
+}
+
+div{
+    border: 0px solid green;
+    min-height: 100px;
+}
+
+.wrapper{
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+}
+
+.menu{
+    border:0px solid green;
+    width:80%;
+}
+
+.menu ul{
+    list-style-type: none;
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
